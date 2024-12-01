@@ -1,0 +1,228 @@
+/* * {
+  background-color: #4682b4;
+} */
+
+/* .image-conatiner {
+  background-color: black;
+} */
+
+/* p {
+  background-color: aqua;
+} */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding: 0 15px;
+  background-image: url(image/image_bg.jpg);
+}
+
+/* Navbar */
+navbar {
+  background-color: #007bff;
+  padding: 15px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #4682b4;
+}
+
+navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 25px;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: fadeIn 1s ease-in-out;
+}
+
+navbar a:hover {
+  background-color: black;
+  transform: translateY(15px);
+  font-size: 1.5rem;
+}
+
+/* Projects Section */
+.projects {
+  max-width: 1500px;
+  margin: 30px auto;
+  /* background-color: #ffffff; */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px 20px rgba(0, 0, 0, 0.2);
+  /* background-image: url(image/image_bg.jpg); */
+  /* background-size: cover; Makes the image cover the entire container */
+  /* background-repeat: no-repeat; Prevents the image from repeating */
+  /* background-position: center; Centers the image */
+}
+
+section {
+  margin-bottom: 10px;
+  border: 10px solid black;
+  padding: 10px;
+}
+
+/* Style for the projects-des section */
+.projects-des {
+  position: relative; /* Required for the pop-up effect */
+  /* background-color: rgb(12, 136, 198); */
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect to enlarge and add shadow */
+.projects-des:hover {
+  transform: scale(1.02); /* Slightly enlarge the section */
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Pop-up text on hover */
+.projects-des::after {
+  /* content: "Click to explore more!"; */
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-size: 0.9rem;
+}
+
+/* Show the pop-up on hover */
+.projects-des:hover::after {
+  opacity: 1;
+  visibility: visible;
+
+  transform: translate(-50%, -10px); /* Move pop-up slightly up */
+}
+
+.projects ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.projects li {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+.projects p {
+  font-size: 1rem;
+  color: #495057;
+  margin: 15px 10px 15px;
+  line-height: 1.8;
+  /* padding: 2.5px; */
+  transition: transform 0.3s ease;
+  animation: scaleUp 2s ease-in-out infinite alternate;
+}
+.projects a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+  /* border-bottom: 1px solid transparent; */
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.projects a:hover {
+  color: #0056b3;
+  border-bottom: 1px solid #0056b3;
+  text-decoration: none;
+}
+
+/* Targeting the 'list' class */
+.list {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+.list a {
+  /* color: #007bff; */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.list a:hover {
+  color: #0056b3;
+  /* text-decoration: underline; */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  navbar a {
+    margin: 10px 0;
+  }
+
+  .projects {
+    padding: 15px;
+  }
+
+  .projects li {
+    font-size: 1.2rem;
+  }
+
+  .projects p {
+    font-size: 0.9rem;
+  }
+}
+
+/* .container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  display: flex;
+}
+
+.image-container,
+.text-container {
+  width: 90%;
+  text-align: center;
+}
+.image-container img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+.text-container {
+  background-color: cyan;
+  padding: 120px;
+} */
