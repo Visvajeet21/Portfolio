@@ -14,3 +14,12 @@ Welcome to my personal portfolio website! This is a showcase of my skills, proje
 3. JavaScript (for interactivity and functionality)
 
 # Output
+1. About and Skills
+![Screenshot 2024-12-01 220520](https://github.com/user-attachments/assets/1a530ce5-76d7-4c57-935e-02becae96cd9)
+
+2. Projects
+![Screenshot 2024-12-01 220535](https://github.com/user-attachments/assets/b385901a-436e-4c4d-860e-ae622a72e25d)
+
+3. Contact
+![Screenshot 2024-12-01 220547](https://github.com/user-attachments/assets/f3625d4f-8cbd-426b-94a9-37e870c81276)
+
