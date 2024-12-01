@@ -12,3 +12,5 @@ Welcome to my personal portfolio website! This is a showcase of my skills, proje
 1. HTML5
 2. CSS3 (with animations and media queries)
 3. JavaScript (for interactivity and functionality)
+
+# Output
